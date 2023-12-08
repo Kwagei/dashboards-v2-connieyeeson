@@ -62,7 +62,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
-    background-color: aqua;
+    /* background-color: aqua; */
     
 }
 
@@ -74,6 +74,8 @@ body {
     flex-direction:column;
     justify-content: space-between;
     margin-bottom: 30px;
+    border-right: 1px solid rgb(195, 187, 187);
+    background-color: #d1cece;
 
 
 }
@@ -125,14 +127,12 @@ body {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    background-color: aqua;
 
 }
 
 
 .childSection div {
 
-    background-color: antiquewhite;
     height: 290px;
     display: flex;
     flex-direction: column;
@@ -146,21 +146,56 @@ body {
 
 .childSection div div {
 
-    background-color: burlywood;
-    height: 182px;
+    /* background-color: burlywood; */
+    height: 192px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
  
 .childSection div div span {
 
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     background-color: antiquewhite;
-
+    width: 210px;
+    height: 180px;
+    justify-content: space-evenly;
+    border-radius: 10px;
 
 }
 
+.childSection div div span h3 {
+
+    color: #121843;
+}
+
+.childSection div div span h1 {
+
+    color: #121843;
+}
+
+
+
+
+ .childSection #colorPink {
+
+    background-color:#ffefe7;
+    color:#ff8a87 ;
+
+}
+
+.childSection #colorGreen {
+
+    background-color: #e8f0fb;
+    color: #5d9cf2;
+}
+
+.childSection #colorPurple {
+
+    background-color: #fdebf9;
+    color: #f391dd;
+}
 
 .childSection span{
 
@@ -168,4 +203,27 @@ body {
     width: 430px;
     height: 750px;
 
+}
+
+.childSection div .dataDiv span {
+
+    background-color: #ffefe7;
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+
+}
+
+.childSection div .dataDiv span span {
+
+    /* background-color: #121843; */
+    width: 160px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
+    border: none;
 }
