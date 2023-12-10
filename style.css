@@ -7,17 +7,23 @@ body {
 .heading {
 
     display: flex;
-    justify-content: space-between;
     border-bottom: 1px rgb(168, 166, 166) solid;
     background-color: #808080;
-    width: 1095px;
-    margin-left: 238px;
+    width: 1334px;
+    /* justify-content: center; */
+    /* margin-left: 238px; */
 }
 
+.heading h1 {
+
+    background-color: #928f8f;
+    width: 230px;
+    height: 0px;
+}
 
  .heading .searchBar {
 
-    width: 1100px;
+    width: 800px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -33,22 +39,36 @@ body {
 .heading .searchBar span {
 
 
-    background-color: aliceblue;
+    background-color: rgb(176, 187, 197);
     height: 50px;
     display: flex;
     align-items: center;
+    /* width: 200px; */
 
 }
 
+
+
 .heading .searchBar .inputBar {
 
-    margin-right: 740px;
+    margin-right: 546px;
+    display: flex;
 }
 
 .heading .searchBar svg {
 
     fill: grey;
+    width: 30px;
 }
+    /* justify-content: center; */
+
+.heading .searchBar img {
+
+    width: 40px;
+    background-color: #5d9cf2;
+    border-radius: 50%;
+}
+
 
 .heading div p {
 
@@ -75,7 +95,7 @@ body {
     justify-content: space-between;
     margin-bottom: 30px;
     border-right: 1px solid rgb(195, 187, 187);
-    background-color: #d1cece;
+    background-color: #e5e0e0;
 
 
 }
@@ -147,10 +167,12 @@ body {
 .childSection div div {
 
     /* background-color: burlywood; */
+    width: 700px;
     height: 192px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
  
 .childSection div div span {
@@ -182,6 +204,7 @@ body {
 
     background-color:#ffefe7;
     color:#ff8a87 ;
+    padding: 5px;
 
 }
 
@@ -189,26 +212,55 @@ body {
 
     background-color: #e8f0fb;
     color: #5d9cf2;
+    padding: 5px;
+
 }
 
 .childSection #colorPurple {
 
     background-color: #fdebf9;
     color: #f391dd;
+    padding: 5px;
+
 }
 
 .childSection span{
 
-    background-color: #7e7373;
-    width: 430px;
+    background-color: #5b5959;
+    width: 390px;
     height: 750px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
 
 }
+
+ .section3 span {
+
+    background-color: #121b4d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    width: 390px;
+    height: 220px;
+    color: white;
+    font-size: 15px;
+}
+
+.section3 span h2  {
+
+margin-bottom: 180px;
+background-color: #030b3d51;
+padding: 15px;
+
+}
+
 
 .childSection div .dataDiv span {
 
     background-color: #ffefe7;
-    width: 325px;
+    width: 345px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -224,6 +276,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: ;
+    /* align-items: ; */
     border: none;
+}
+
+  .section2 {
+
+    background-color: #121843;
+    height: 20px;
 }
